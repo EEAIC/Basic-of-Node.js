@@ -1,7 +1,7 @@
-var exprss = require('express');
+var express = require('express');
 var http = require('http');
 
-var app = exprss(); //express 서버 객체
+var app = express(); //express 서버 객체
 
 app.set('port', process.env.PORT || 3000);
 
